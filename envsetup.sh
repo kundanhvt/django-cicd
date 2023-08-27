@@ -19,5 +19,7 @@ else
     mkdir logs
     touch logs/error.log logs/access.log
 fi
+echo "User is:"
+whoami
 
 sudo chmod -R 777 logs
