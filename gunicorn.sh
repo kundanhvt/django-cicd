@@ -18,7 +18,7 @@ sudo cp -rf gunicorn.service /etc/systemd/system/
 echo "$USER"
 echo "$PWD"
 
-sudo  systemctl deamon-reload
+sudo systemctl daemon-reload
 sudo systemctl start gunicorn
 
 echo "Gunicorn has been started"
