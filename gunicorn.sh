@@ -27,3 +27,5 @@ echo "Gunicorn has been started"
 
 sudo systemctl restart gunicorn
 sudo systemctl status gunicorn
+
+echo "Completed the gunicorn setup"
