@@ -22,4 +22,4 @@ fi
 echo "User is:"
 whoami
 
-sudo -s 'root' chmod -R 777 logs
+sudo -S 'root' chmod -R 777 logs
