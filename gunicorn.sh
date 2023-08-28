@@ -3,7 +3,7 @@
 source venv/bin/activate
 
 pwd
-cd var/lib/jenkins/workspace/django-cicd/app
+cd app
 
 python3 manage.py makemigrations
 python3 manage.py migrate
